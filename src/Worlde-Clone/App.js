@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className="title">
       React Worlde Game
-      {solution && <p>solution is :{solution}</p>}
+  
       {solution && <Wordle solution={solution} />}
     </div>
   );
